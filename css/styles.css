@@ -762,6 +762,7 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  padding: 40px;
 
   transform: translate(-50%, -50%) scale(1);
   transition: transform var(--transition-dur-and-funk);
@@ -798,21 +799,13 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-
-  padding-top: 40px;
   margin-bottom: 12px;
-}
-
-.contact-form {
-  width: 448px;
-  height: 342px;
-  margin: 0 auto;
 }
 
 .form-field {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .contact-form-input {
@@ -880,6 +873,7 @@ body {
 .form-check-field {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
 }
 
@@ -914,12 +908,11 @@ body {
 }
 
 .form-own-checkbox {
-  width: 16px;
-  height: 15px;
   border: 1px solid #000000;
   border-radius: 2px;
   cursor: pointer;
   margin-right: 8px;
+  
 }
 
 .form-own-checkbox-icon {
