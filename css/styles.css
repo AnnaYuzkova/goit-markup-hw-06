@@ -786,6 +786,7 @@ body {
   transition: fill var(--transition-dur-and-funk);
 }
 
+.modal-button-close:hover,
 .modal-button-close:focus {
   fill: var(--accent-color);
 }
@@ -805,7 +806,10 @@ body {
 .form-field {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+}
+
+.form-field:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 .contact-form-input {
@@ -875,6 +879,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .form-check-input {
